@@ -14,6 +14,7 @@ def download_model(model_id, cache_dir):
     print(f"模型 {model_id} 下载完成，保存路径: {cache_dir}")   
 # download_model(model_id='Qwen/Qwen3-0.6B', cache_dir=cache_dir)
 
+
 # 上传模型到指定用户空间
 try:
     api = HubApi()
